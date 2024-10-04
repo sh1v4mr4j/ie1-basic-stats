@@ -1,3 +1,5 @@
+Question 1:
+
 1. In the basic-stats folder in the main (previously called master) branch, how many commits
 does the README.md file have?
 
@@ -22,3 +24,7 @@ src/Model.java, src/Numbers.java, Views/AddNumView.java, Views/MeanView.java, Vi
 6. What is the most recent commit in the main branch?
 
 da90e878188c6de8870581bdb447299821d7e87b : "Updated README.md" René Just
+
+Question 2:
+
+In order to add the MinMaxCalculation.java file to the remote repository, after creating the file, first I added it to the staged changes to commit by using "git add". This means that the next time I run "git push" it will sync my changes at that point to the remote repository. Next, to avoid merge conflicts, I ran "git pull" to make sure my current local branch was up to date with the remote and to make sure my work didn't conflict with anything already commmited. After that, I ran "git push" to commit my changes to the remote.
